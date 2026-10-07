@@ -7,6 +7,11 @@ logger.setLevel(logging.INFO)
 
 ec2 = boto3.client('ec2')
 sns = boto3.client('sns')
+ec2 = boto3.client('ec2')
+sns = boto3.client('sns')
+ec2 = boto3.client('ec2')
+sns = boto3.client('sns')
+
 
 INSTANCE_ID = os.environ['INSTANCE_ID']
 SNS_TOPIC_ARN = os.environ['SNS_TOPIC_ARN']
